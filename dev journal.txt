@@ -6,5 +6,13 @@ This project will aim to provide an effective application support engineer AI, r
 sources to determine and generate a root cause analysis for production issues for a fictitious enterprise environment.
 
 https://github.com/open-telemetry/opentelemetry-demo The OpenTelemetry demo repo will be used as the fictitious enterprise 
-environment. Documentation will be generated for this codebase that is a some times outdated, incomplete and of varying 
-quality to simulate a realistic challenging modern enterprise environment for an application support team.
+environment. OpenTelemetry (OTel) Demo is explicitly designed to simulate complex, cascading microservice failures for training 
+purposes for training SREs. Trouble shooting these known failures myself will be excellent practice, but runbooks can be 
+generated for these known issues as I work through them myself and feed them into the documentation base for retrieval.
+
+Documentation will be generated for this codebase that is a some times outdated, incomplete and of varying quality to simulate a 
+challenging modern enterprise environment for an application support team.
+
+The RAG agent will pull from the documentation and code base to work on generating a triage description for incidents: outlining
+what information is needed from the user, then making determinations of the problem root causes based on information retrieved.
+
