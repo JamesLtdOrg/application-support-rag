@@ -1,0 +1,10 @@
+Plan
+
+Host RAG model on a self healing kubernetes cluster. Terraform will be used to script the provisioning of cloud resources 
+
+This project will aim to provide an effective application support engineer AI, retrieving and analysing data from various 
+sources to determine and generate a root cause analysis for production issues for a fictitious enterprise environment.
+
+https://github.com/open-telemetry/opentelemetry-demo The OpenTelemetry demo repo will be used as the fictitious enterprise 
+environment. Documentation will be generated for this codebase that is a some times outdated, incomplete and of varying 
+quality to simulate a realistic challenging modern enterprise environment for an application support team.
