@@ -1,6 +1,7 @@
 Plan
 
-Host RAG model on a self healing kubernetes cluster. Terraform will be used to script the provisioning of cloud resources 
+Host RAG model on a self healing kubernetes cluster. Terraform will be used to script the provisioning of cloud resources, but 
+all of that will come way way later. Playing round with models and with the oprn telemetry demo first is where i start.
 
 This project will aim to provide an effective application support engineer AI, retrieving and analysing data from various 
 sources to determine and generate a root cause analysis for production issues for a fictitious enterprise environment.
