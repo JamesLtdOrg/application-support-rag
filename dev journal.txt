@@ -17,3 +17,4 @@ challenging modern enterprise environment for an application support team.
 The RAG agent will pull from the documentation and code base to work on generating a triage description for incidents: outlining
 what information is needed from the user, then making determinations of the problem root causes based on information retrieved.
 
+21st Oct: I got WSL up and running. Cloned opentel demo locally onto WSL
