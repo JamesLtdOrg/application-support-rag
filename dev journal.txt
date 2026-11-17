@@ -18,3 +18,13 @@ The RAG agent will pull from the documentation and code base to work on generati
 what information is needed from the user, then making determinations of the problem root causes based on information retrieved.
 
 21st Oct: I got WSL up and running. Cloned opentel demo locally onto WSL
+
+Phase	What you build	- Hours
+1. Environment	OTel demo running in Docker, telemetry landing in App Insights, a few KQL queries working	6–12
+2. Agent + code tools	Basic agent loop (CLI is fine), plus ripgrep, read_file and git tools over the demo repo	8–12
+3. App Insights	KQL query tool, plus the stack-trace-to-code lookup	8–15
+4. Runbooks + docs RAG	Write 4–5 runbooks for the demo’s failure scenarios, then embed and search them	8–12
+5. Database	Read-only query tool	4–6
+6. Testing	About 10 failure scenarios with expected answers, then improve until they mostly pass	10–15
+7. Demo polish	Simple chat UI, a recorded walkthrough, a one-page write-up	6–10
+Total		~50–80 hours
